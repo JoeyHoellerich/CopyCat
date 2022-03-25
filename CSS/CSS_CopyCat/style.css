@@ -54,6 +54,7 @@
 .stalked-header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5px;
 }
 
 .header-text {
@@ -72,24 +73,46 @@
 .channel-card {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
 }
 
 /* Channel Card Pic + Text */
 .channel-left {
   display: flex;
 }
-
-.channel-title {
-  color: #dedadd;
+/* Channel Pics */
+.channel-pic {
+  width: 30%;
+  margin-right: 10px;
+}
+.channel-pic img {
+  width: 100%;
 }
 
-.channel-info {
+/* Channel text */
+.channel-title h3 {
+  color: #dedadd;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.channel-info h4 {
   color: #dedadd9d;
+  font-size: 0.7em;
+  margin: 0;
 }
 
 /* Channel Viewers */
 .channel-views {
   color: #dedadd;
+  font-size: 0.8em;
+  align-self: flex-start;
+}
+
+.stalked-channels p {
+  color: rgb(35, 241, 197);
+  font-size: 0.7em;
 }
 /* Main + Additional  */
 main {
