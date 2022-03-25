@@ -1,6 +1,6 @@
 /* HELPER */
 * {
-  border: 1px solid steelblue;
+  /* border: 1px solid steelblue; */
 }
 
 /* Page layout */
@@ -10,6 +10,9 @@
 
 /* NAVBAR */
 /* ========================================= */
+.navbar {
+  border-bottom: 2px solid black;
+}
 .profile-pic h3 {
   color: white;
 }
@@ -37,11 +40,57 @@
 
 /* Menu Bar */
 .menu-bar {
-  width: 15%;
+  width: 20%;
   height: 100vh;
-  background-color: slategray;
+  background-color: #1f1f23;
 }
 
+.menu-bar .container {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* stalked channel header stuff */
+.stalked-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-text {
+  text-transform: uppercase;
+  align-self: center;
+  color: #dedadd;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.bi-plus-square {
+  color: #dedadd;
+}
+
+/* Channel Cards */
+.channel-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Channel Card Pic + Text */
+.channel-left {
+  display: flex;
+}
+
+.channel-title {
+  color: #dedadd;
+}
+
+.channel-info {
+  color: #dedadd9d;
+}
+
+/* Channel Viewers */
+.channel-views {
+  color: #dedadd;
+}
 /* Main + Additional  */
 main {
   width: 100%;
