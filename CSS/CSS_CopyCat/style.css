@@ -126,6 +126,7 @@ main {
   height: 20em;
 }
 
+/* Position Main Stream content */
 .main-stream-box {
   display: flex;
   justify-content: center;
@@ -133,51 +134,61 @@ main {
   top: 3%;
 }
 
+/* Stream Image and Info */
 .main-stream {
   display: flex;
   margin: auto;
 }
 
+/* Stream image */
 .main-stream img {
   height: 300px;
   width: 450px;
   object-fit: cover;
 }
 
+/* Stream Info */
 .main-stream-info {
   background-color: #18181b;
   width: 150px;
 }
 
+/* Stream Info Title (Pic + Text) */
 .main-stream-title {
   display: flex;
 }
 
+/* Stream Info Title Styling */
 .main-stream-title h4,
 h3 {
   color: rgb(35, 241, 197);
   margin: 0;
 }
 
+/* Steam Info Main Title  */
 .main-stream-title h3 {
   margin-top: 5px;
   font-size: 1em;
 }
 
+/* Stream Info Secondary Title */
 .main-stream-title h4 {
   font-size: 0.7em;
 }
 
+/* Stream Info Views */
 .main-stream-title h4:last-of-type {
   color: #dedadd;
 }
 
+/* Stream Info Pic */
 .main-stream-pic img {
   width: 50px;
   height: 50px;
   margin: 5px 10px 0 10px;
 }
 
+/* Stream Info Description */
 .main-stream-info p {
   color: #dedadd;
   font-size: 0.6em;
@@ -185,6 +196,7 @@ h3 {
   padding: 0 7px;
 }
 
+/* Stream Info Category (button) */
 .main-stream-info button {
   width: 50px;
   height: 20px;
@@ -195,6 +207,57 @@ h3 {
 
 /* Bunch of Smaller Content */
 .additional-content {
-  background-color: aliceblue;
+  background-color: #0e0e10;
   height: 15em;
+}
+
+/* Box that holds all additional content */
+.additional-content-box {
+  margin: 0px 15px;
+}
+
+/* Additional content Title */
+.additional-content-box h3 {
+  font-size: 1.1em;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Additional Content Cards (all) */
+.additional-content-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add-Content Card (single) */
+.add-content-card {
+  margin: 0 15px;
+}
+
+/* Add-Content Card Images */
+.add-content-card img {
+  width: 200px;
+  height: 110px;
+  object-fit: fill;
+}
+
+/* Add-Content Card Title */
+.add-content-card-info h3 {
+  color: #dedadd;
+  font-size: 1em;
+}
+
+/* Add-Content Card Info */
+.add-content-card-info h4 {
+  color: #575d63;
+  font-size: 0.8em;
+  margin-bottom: 0;
+}
+
+/* Add-Content Card Category (button) */
+.add-content-card-info button {
+  width: 50px;
+  height: 20px;
+  padding: 1px;
+  font-size: 0.5em;
 }
