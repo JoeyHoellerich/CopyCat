@@ -121,8 +121,76 @@ main {
 
 /* Big Box Content */
 .main-content {
-  background-color: azure;
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
   height: 20em;
+}
+
+.main-stream-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 3%;
+}
+
+.main-stream {
+  display: flex;
+  margin: auto;
+}
+
+.main-stream img {
+  height: 300px;
+  width: 450px;
+  object-fit: cover;
+}
+
+.main-stream-info {
+  background-color: #18181b;
+  width: 150px;
+}
+
+.main-stream-title {
+  display: flex;
+}
+
+.main-stream-title h4,
+h3 {
+  color: rgb(35, 241, 197);
+  margin: 0;
+}
+
+.main-stream-title h3 {
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.main-stream-title h4 {
+  font-size: 0.7em;
+}
+
+.main-stream-title h4:last-of-type {
+  color: #dedadd;
+}
+
+.main-stream-pic img {
+  width: 50px;
+  height: 50px;
+  margin: 5px 10px 0 10px;
+}
+
+.main-stream-info p {
+  color: #dedadd;
+  font-size: 0.6em;
+  text-align: left;
+  padding: 0 7px;
+}
+
+.main-stream-info button {
+  width: 50px;
+  height: 20px;
+  margin: 10px;
+  padding: 1px;
+  font-size: 0.5em;
 }
 
 /* Bunch of Smaller Content */
