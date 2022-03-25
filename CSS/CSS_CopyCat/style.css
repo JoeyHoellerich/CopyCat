@@ -1,0 +1,60 @@
+/* HELPER */
+* {
+  border: 1px solid steelblue;
+}
+
+/* Page layout */
+.page-container {
+  display: flex;
+}
+
+/* NAVBAR */
+/* ========================================= */
+.profile-pic h3 {
+  color: white;
+}
+
+.secondary-item {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.nav-search {
+  background-color: #464649;
+  color: #c1c1c2;
+  border: none;
+  margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.nav-search-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #575d63;
+  color: #c1c1c2;
+}
+
+/* Menu Bar */
+.menu-bar {
+  width: 15%;
+  height: 100vh;
+  background-color: slategray;
+}
+
+/* Main + Additional  */
+main {
+  width: 100%;
+}
+
+/* Big Box Content */
+.main-content {
+  background-color: azure;
+  height: 20em;
+}
+
+/* Bunch of Smaller Content */
+.additional-content {
+  background-color: aliceblue;
+  height: 15em;
+}
