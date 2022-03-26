@@ -6,6 +6,8 @@
 /* Page layout */
 .page-container {
   display: flex;
+  align-items: flex-start;
+  width: 100%;
 }
 
 /* NAVBAR */
@@ -40,14 +42,17 @@
 
 /* Menu Bar */
 .menu-bar {
-  width: 20%;
-  height: 100vh;
+  height: 151.1vh;
   background-color: #1f1f23;
 }
 
-.menu-bar .container {
+.menu-bar .container-1 {
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.container-1 {
+  width: 170px;
 }
 
 /* stalked channel header stuff */
@@ -208,7 +213,7 @@ h3 {
 /* Bunch of Smaller Content */
 .additional-content {
   background-color: #0e0e10;
-  height: 15em;
+  height: 100vh;
 }
 
 /* Box that holds all additional content */
@@ -226,12 +231,13 @@ h3 {
 /* Additional Content Cards (all) */
 .additional-content-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-flow: row wrap;
 }
 
 /* Add-Content Card (single) */
 .add-content-card {
-  margin: 0 15px;
+  margin: 5px 10px;
 }
 
 /* Add-Content Card Images */
@@ -260,4 +266,22 @@ h3 {
   height: 20px;
   padding: 1px;
   font-size: 0.5em;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 750px) {
+  .menu-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .search-box {
+    display: none;
+  }
+
+  .main-stream-info {
+    display: none;
+  }
 }
